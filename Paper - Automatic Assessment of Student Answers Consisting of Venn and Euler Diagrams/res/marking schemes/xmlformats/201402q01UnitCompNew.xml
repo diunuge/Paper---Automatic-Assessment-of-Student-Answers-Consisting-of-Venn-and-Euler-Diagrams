@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rubric>
+	<type>InterestCalculation</type>
+	<sectionid>1</sectionid>
+	<question id="q01" totalMarks="10">
+		<sub_question id="q01-01" totalMarks="1" isProof="true">
+			<mark_set id="1">
+				<data required="true" isFinal="false" marks="1">
+					<phrase>යොදවන මුදල</phrase>
+					<math_expression unitCompulsory="false" >
+						<mn>600000</mn>
+						<mo>*</mo>
+						<mn>30</mn>
+						<mo>/</mo>
+						<mn>100</mn>
+					</math_expression>
+				</data>
+				<data required="true" isFinal="true" penalty="1">
+					<value unitCompulsory="true">
+						<preunit>s01-01</preunit>
+						<val>180000</val>
+					</value>
+				</data>
+			</mark_set>
+		</sub_question>
+		<sub_question id="q01-02" totalMarks="2" isProof="true">
+			<mark_set id="1">
+				<data required="true" isFinal="false" marks="1" expPartialMarks="true">
+					<phrase>කොටස් ගණන</phrase>
+					<math_expression unitCompulsory="false">
+						<mn preCalculated="true" sub_questionId="q01-01" >180000</mn>
+						<mo>/</mo>
+						<mn>24</mn>
+					</math_expression>
+				</data>
+				<data required="false" isFinal="true">
+					<value unitCompulsory="true">
+						<preunit>කොටස්</preunit>
+						<val>7500</val>
+					</value>
+				</data>
+				<data required="true" isFinal="false" marks="1">
+					<phrase>නාමික අගය</phrase>
+					<math_expression unitCompulsory="false" >
+						<mn preCalculated="true" sub_questionId="q01-02">7500</mn>
+						<mo>*</mo>
+						<mn>25</mn>
+					</math_expression>
+				</data>
+				<data required="true" isFinal="true" penalty="1">
+					<value unitCompulsory="true">
+						<preunit>s01-01</preunit>
+						<val>187500</val>
+					</value>
+				</data>
+			</mark_set>
+			<mark_set id="2">
+				<data required="true" isFinal="false" marks="2">
+					<phrase>නාමික අගය</phrase>
+					<math_expression unitCompulsory="false" >
+						<mn preCalculated="true" sub_questionId="q01-01" >180000</mn>
+						<mo>/</mo>
+						<mn>24</mn>
+						<mo>*</mo>
+						<mn>25</mn>
+					</math_expression>
+				</data>
+				<data required="true" isFinal="true" penalty="1">
+					<value unitCompulsory="true">
+						<preunit>s01-01</preunit>
+						<val>187500</val>
+					</value>
+				</data>
+			</mark_set>
+		</sub_question>
+		<sub_question id="q01-03" totalMarks="2" isProof="false">
+			<mark_set id="1">
+				<data required="true" isFinal="false" marks="1">
+					<phrase>කොටස් වලින් ලැබෙන වාර්ෂික ආදායම</phrase>
+					<math_expression unitCompulsory="false">
+						<mn preCalculated="true" sub_questionId="q01-02">187500</mn>
+						<mo>*</mo>
+						<mn>5</mn>
+						<mo>/</mo>
+						<mn>100</mn>
+					</math_expression>
+				</data>
+				<data required="true" isFinal="true" marks="1">
+					<value unitCompulsory="true">
+						<preunit>s01-01</preunit>
+						<val>9375</val>
+					</value>
+				</data>
+			</mark_set>
+		</sub_question>
+		<sub_question id="q01-04" totalMarks="2" isProof="false">
+			<mark_set id="1">
+				<data required="true" isFinal="false" marks="1">
+					<phrase>ගිණුමේ තැන්පත් කරනු ලබන මුදල</phrase>
+					<math_expression unitCompulsory="false" >
+						<mn>600000</mn>
+						<mo>-</mo>
+						<mn preCalculated="true" sub_questionId="q01-01">180000</mn>
+					</math_expression>
+				</data>
+				<data required="true" isFinal="true" marks="1">
+					<value unitCompulsory="true">
+						<preunit>s01-01</preunit>
+						<val>420000</val>
+					</value>
+				</data>
+			</mark_set>
+			<mark_set id="2">
+				<data required="true" isFinal="true" marks="2">
+					<phrase>ගිණුමේ තැන්පත් කරනු ලබන මුදල</phrase>
+					<value unitCompulsory="true">
+						<preunit>s01-01</preunit>
+						<val>420000</val>
+					</value>
+				</data>
+			</mark_set>
+			<mark_set id="3">
+				<data required="true" isFinal="false" marks="1">
+					<phrase>ගිණුමේ තැන්පත් කරනු ලබන මුදල</phrase>
+					<math_expression unitCompulsory="false" >
+						<mn>600000</mn>
+						<mo>*</mo>
+						<mn>70</mn>
+						<mo>/</mo>
+						<mn>100</mn>
+					</math_expression>
+				</data>
+				<data required="true" isFinal="true" marks="1">
+					<value unitCompulsory="true">
+						<preunit>රු</preunit>
+						<val>420000</val>
+					</value>
+				</data>
+			</mark_set>
+		</sub_question>
+		<sub_question id="q01-05" totalMarks="3" isProof="false">
+			<mark_set id="1">
+				<data required="true" isFinal="false" marks="2">
+					<phrase>දෙවන වසර අවසානයේ මුදල</phrase>
+					<math_expression unitCompulsory="false">
+						<mn preCalculated="true" sub_questionId="q01-04">420000</mn>
+						<mo>*</mo>
+						<mn>108</mn>
+						<mo>/</mo>
+						<mn>100</mn>
+						<mo>*</mo>
+						<mn>108</mn>
+						<mo>/</mo>
+						<mn>100</mn>
+					</math_expression>
+				</data>
+				<data required="true" isFinal="true" marks="1">
+					<value unitCompulsory="true">
+						<preunit>s01-01</preunit>
+						<val>489888</val>
+					</value>
+				</data>
+			</mark_set>
+			<mark_set id="2">
+				<data required="true" isFinal="false" marks="1" expPartialMarks="true">
+					<phrase>පලමු වසර අවසානයේ මුදල</phrase>
+					<math_expression unitCompulsory="false" >
+						<mn preCalculated="true" sub_questionId="q01-04">420000</mn>
+						<mo>*</mo>
+						<mn>8</mn>
+						<mo>/</mo>
+						<mn>100</mn>
+						<mo>+</mo>
+						<mn preCalculated="true" sub_questionId="q01-04">420000</mn>
+					</math_expression>
+				</data>
+				<data required="false" isFinal="true">
+					<value unitCompulsory="true">
+						<preunit>s01-01</preunit>
+						<val>453600</val>
+					</value>
+				</data>
+				<data required="true" isFinal="false" marks="1">
+					<phrase>දෙවන වසර අවසානයේ මුදල</phrase>
+					<math_expression unitCompulsory="false" >
+						<mn preCalculated="true" sub_questionId="q01-05">453600</mn>
+						<mo>*</mo>
+						<mn>8</mn>
+						<mo>/</mo>
+						<mn>100</mn>
+						<mo>+</mo>
+						<mn preCalculated="true" sub_questionId="q01-05">453600</mn>
+					</math_expression>
+				</data>
+				<data required="true" isFinal="true" marks="1">
+					<value unitCompulsory="true">
+						<preunit>s01-01</preunit>
+						<val>489888</val>
+					</value>
+				</data>
+			</mark_set>
+			<mark_set id="3">
+				<data required="true" isFinal="false" marks="1" expPartialMarks="true">
+					<phrase>පලමු වසර අවසානයේ පොලිය</phrase>
+					<math_expression unitCompulsory="false" >
+						<mn preCalculated="true" sub_questionId="q01-04">420000</mn>
+						<mo>*</mo>
+						<mn>8</mn>
+						<mo>/</mo>
+						<mn>100</mn>
+					</math_expression>
+				</data>
+				<data required="false" isFinal="true">
+					<value unitCompulsory="true">
+						<preunit>s01-01</preunit>
+						<val>33600</val>
+					</value>
+				</data>
+				<data required="true" isFinal="false" marks="1">
+					<phrase>දෙවන වසර අවසානයේ පොලිය</phrase>
+					<math_expression unitCompulsory="false" >
+						<mo>(</mo>
+						<mn preCalculated="true" sub_questionId="q01-04">420000</mn>
+						<mo>+</mo>
+						<mn preCalculated="true" sub_questionId="q01-05">33600</mn>
+						<mo>)</mo>
+						<mo>*</mo>
+						<mn>8</mn>
+						<mo>/</mo>
+						<mn>100</mn>
+					</math_expression>
+				</data>
+				<data required="true" isFinal="true" marks="1">
+					<phrase>දෙවන වසර අවසානයේ මුළු මුදල</phrase>
+					<value unitCompulsory="true">
+						<preunit>s01-01</preunit>
+						<val>489888</val>
+					</value>
+				</data>
+			</mark_set>
+		</sub_question>
+	</question>
+</rubric>
+

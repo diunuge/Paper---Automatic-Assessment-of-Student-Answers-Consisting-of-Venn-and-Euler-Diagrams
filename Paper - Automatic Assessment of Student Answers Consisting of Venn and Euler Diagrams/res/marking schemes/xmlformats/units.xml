@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<units>
+	<type>Units</type>
+	<local_units id="1">
+		<type>Mathematics</type>
+		<section id="s01" >
+			<name>Currency</name>
+			<unit_set id="s01-01">
+				<data>රුපියල්</data>
+				<data>රු</data>
+				<data>Rupee</data>
+				<data>Rs</data>
+				<data>LKR</data>
+				<data>Sri Lankan Rupee</data>
+			</unit_set>
+			<unit_set id="s01-02">
+				<data>සත</data>
+				<data>ශත</data>
+				<data>cent</data>
+			</unit_set>
+		</section>
+		<section id="s02" >
+			<name>measurements</name>
+			<unit_set id="s02-01">
+				<data>මීටර්</data>
+				<data>මී</data>
+				<data>meter</data>
+				<data>m</data>.
+			</unit_set>
+			<unit_set id="s02-02">
+				<data>සෙන්ට්මීටර්</data>
+				<data>සෙමී</data>
+				<data>centimeter</data>
+				<data>cm</data>
+			</unit_set>
+		</section>
+	</local_units>
+</units>
+

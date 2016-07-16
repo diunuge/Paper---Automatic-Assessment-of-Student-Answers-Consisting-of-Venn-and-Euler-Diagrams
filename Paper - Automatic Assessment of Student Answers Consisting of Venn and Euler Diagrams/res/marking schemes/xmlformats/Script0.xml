@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<answer_script>
+	<type>AnswerScript</type>
+	<student id="RU/E/2010/072">
+		<name>Test Answer</name>
+		<grade>11</grade>
+		<school>Richmond College</school>
+	</student>
+	<question id="q01" >
+		<manualGradingMarks>10</manualGradingMarks>
+		<sub_question id="q01-01" >
+			<manualGradingMarks_sub>1</manualGradingMarks_sub>
+			<answer>කොටස් මිල දී ගැනීමට යොදවන මුදල=600000*30/100</answer>
+			<answer>=රු.180000</answer>
+		</sub_question>
+		<sub_question id="q01-02" >
+			<manualGradingMarks_sub>2</manualGradingMarks_sub>
+			<answer>මිල දී ගත් කොටස් වල නාමික අගය=180000*25/24</answer>
+			<answer>=රු.187500</answer>
+		</sub_question>
+		<sub_question id="q01-03" >
+			<manualGradingMarks_sub>2</manualGradingMarks_sub>
+			<answer>කොටස් වලින් ලැබෙන වාර්ෂික ආදායම=187500*5/100</answer>
+			<answer>=රු.9375</answer>
+		</sub_question>
+		<sub_question id="q01-04" >
+			<manualGradingMarks_sub>2</manualGradingMarks_sub>
+			<answer>ගිණුමේ තැන්පත් කරනු ලබන මුදල=600000*70/100</answer>
+			<answer>=රු.420000</answer>
+		</sub_question>
+		<sub_question id="q01-05" >
+			<manualGradingMarks_sub>3</manualGradingMarks_sub>
+			<answer>වසර දෙක අවසානයේ මුදල=420000*108/100*108/100</answer>
+			<answer>=රු.489888</answer>
+		</sub_question>
+	</question>
+</answer_script>
+
