@@ -1,0 +1,45 @@
+<infographic> 
+	<type>2D Coordinate Graphs</type> 
+	<title>Untitled</title>
+	<x_axis>
+		<title></title>
+		<labels>
+			<label></label>
+		</labels>
+	</x_axis>
+	<y_axis>
+		<title></title>
+		<labels>
+			<label></label>
+		</labels>
+	</y_axis> 
+	<scale>
+		<x_scale></x_scale>
+		<y_scale></y_scale>
+		<origin></origin>
+	</scale>
+	<data_set>
+		<curve>
+			<title></title>
+			<points>
+				<point><x></x><y></y></point>
+			</points>
+		</curve>
+		<line>
+			<title></title>
+			<points>
+				<point><x></x><y></y></point>
+			</points>
+		</line>
+		<point>
+			<label_associated></label_associated>
+			<coordinate><x></x><y></y></coordinate>
+		</point>
+	</data_set> 
+</infographic>
+
+
+
+
+
+
