@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>                               
+<rubric id="r01" version="1.0">                                                 
+	<type>Venn Diagram</type>
+	<question id="q01" totalMarks="2">
+		<sub_question id="q01-01" 
+			modelDiagram="dm01" totalMarks="2">
+			<mark_set id="1" mark="2" method="all">
+				<mandatory></mandatory>
+				<data>
+					<zone>
+						<label>~A.B.C</label>
+						<value>5</value>
+						<color>true<color>
+					</zone>
+				</data>
+				<feedback>
+					<success></success>
+					<fail>Zone element is not 
+						marked!</fail>
+				</feedback>
+			</mark_set>
+		<sub_question>
+	</question> 
+</rubric>
+
